@@ -1,0 +1,4 @@
+baseURL = 'https://milotopia.github.io/'
+languageCode = 'en-us'
+title = 'MiloWork'
+theme = 'ananke'
