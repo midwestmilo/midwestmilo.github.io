@@ -5,4 +5,3 @@ title = 'Beetle On A Board'
 +++
 
 
-![](/static/beetle-on-a-board.jpg)
