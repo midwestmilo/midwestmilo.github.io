@@ -52,7 +52,7 @@
 
 “Jamal clicked on three dimple catalogs.”
 
-“That’s how it starts.”
+“That’s how they get you.”
 
 “You’re impossible.”
 
