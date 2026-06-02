@@ -1,6 +1,6 @@
 baseURL = 'https://midwestmilo.github.io/'
 languageCode = 'en-us'
-title = 'Milo Dixon'
+title = 'C-Minus'
 theme = 'ananke'
 [caches]
   [caches.images]
