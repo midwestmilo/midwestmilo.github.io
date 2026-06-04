@@ -6,11 +6,11 @@
 <br>
 
 
-“Have you ever replaced your head? It’s quite easy, you know!”
+“Have you ever replaced your head? Easiest procedure I've had done in a while, you know.”
 
 “Easy for you, maybe. You have a modular spine.”
 
-“Oh, don’t be dramatic. Everyone has a modular spine now.”
+“Don’t be dramatic. Everyone has a modular spine now.”
 
 “Not everyone. Some of us still have original neck architecture.”
 
