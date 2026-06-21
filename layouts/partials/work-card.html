@@ -8,7 +8,9 @@
     <span class="work-card__body">
       <span class="work-card__type">{{ if eq .Type "projects" }}Database{{ else }}{{ .Type | humanize }}{{ end }}</span>
       <span class="work-card__title">{{ .Title }}</span>
-      {{ with .Description }}<span class="work-card__description">{{ . }}</span>{{ end }}
+      {{ if ne .Type "projects" }}
+        {{ with .Description }}<span class="work-card__description">{{ . }}</span>{{ end }}
+      {{ end }}
       <span class="work-card__meta">
         {{ if not .Date.IsZero }}{{ .Date.Format "Jan 2, 2006" }}{{ end }}
       </span>

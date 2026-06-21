@@ -1,6 +1,5 @@
 ---
 title: "redo.py"
-description: "A code-poem about memory, apology, and the impossible machine of revision."
 date: 2026-01-01T13:00:00-05:00
 tags:
   - stderr
@@ -8,28 +7,39 @@ tags:
   - database
 ---
 
+
+
 ```text
 redo.py
 by Milo Dixon
+
 
 import time
 import datetime
 import sys
 
+
 from memory import suppress, restore, rewrite
 from grief import unresolved, pending, buried
 from self import the_version_I_cannot_accept
 
+
 # this is a time machine
+
 
 TARGET_YEAR = None # to be determined
 TARGET_MOMENT = None # working on it
 REASON = [] # see below
 
+
 redo_counter = 0 # how many times I have wished I could go back
 # current value: too high to store as integer
 
+
 REASON.append("the flowers")
+```
+
+
 
 You went to see Aunt Maxine that weekend.
 
@@ -62,6 +72,7 @@ you go to look anyway.
 They were the color of a what a colorful thing looks like
 when it used to be a color.
 
+```text
 # you came home, you saw them
 # didn't say anything
 # I watched you look at them
@@ -81,13 +92,18 @@ when it used to be a color.
 # ESTIMATED_COST = "maybe thirty seconds"
 # ACTUAL_COST = "ongoing"
 
+
 REASON.append("David")
+
 
 # name changed
 # he knows who he is
 # if he ever reads this:
 # David, I’m sorry
 # I'm sorry ever since we were at the lockers
+```
+
+
 
 He told me in the hallway in October.
 The school didn't know yet
@@ -107,6 +123,7 @@ Faggot.
 
 Fuck. I said that out loud.
 
+```text
 # I didn't know anyone was listening
 # that much is true
 # but it’s useless to say now
@@ -141,6 +158,9 @@ Fuck. I said that out loud.
 # ACTION = "be quiet"
 # ESTIMATED_COST = "one second of silence"
 # ACTUAL_COST = "his heart"
+```
+
+
 
 He didn't come back to that hallway.
 I didn't either
@@ -150,6 +170,7 @@ until we were two people
 who had once been in the same sentence
 but I guess we weren't anymore.
 
+```text
 pending_apology["David"] = {
   "delivered" : False,
   "words" : "I announced your secret",
@@ -158,7 +179,9 @@ pending_apology["David"] = {
   "addendum3" : "I hope someone liked you liked you back.",
 }
 
+
 REASON.append("us")
+
 
 # this one is harder to timestamp
 # because it didn't happen all at once
@@ -166,6 +189,9 @@ REASON.append("us")
 # the burning has been happening for a while
 # and you were both watching it
 # but neither of you said anything
+```
+
+
 
 There is no clean TARGET_MOMENT for this one.
 
@@ -177,9 +203,11 @@ and the quiet can mean two things at the same time
 
 How were we already with together when we kept choosing anything except each other
 
+```text
 him = "trying"
 me = "trying"
 us = him + me
+
 
 # us should have been enough
 # I keep running the numbers
@@ -188,6 +216,9 @@ us = him + me
 # not because we didn't love each other
 # we did
 # we did
+```
+
+
 
 We were both carrying it, that felt tangible
 We passed it back and forth
@@ -195,6 +226,7 @@ thinking the other one knew how to hold it.
 
 I mistook handsfree love for carefree love
 
+```text
 # I would go back to the first night
 # when we stayed up so late
 # then kept talking
@@ -212,10 +244,13 @@ I mistook handsfree love for carefree love
 # BLOCKER = "I was not fine"
 # redo_counter += 1
 
+
 REASON.append("me")
+
 
 # this one took the longest to add to the list
 # I kept moving it to the bottom of the file
+
 
 the_version_that_didnt_know_yet = {
   "age" : [15, 16, 17, 19, 22, 24],
@@ -228,6 +263,9 @@ the_version_that_didnt_know_yet = {
   "prognosis" : "unknown", # but better than he thought
   "verdict" : "not broken. uninformed."
 }
+```
+
+
 
 I would go back to every age in that list, but it’s not like it would be anything dramatic
 It’d be more like a map
@@ -248,6 +286,7 @@ you don’t have to fix this with what you have right now
 because what you have right now is not enough
 It’s not your fault.
 
+```text
 # I would go back to 19
 # and sit with him through that whole semester
 # the one when he didn't talk to me
@@ -272,6 +311,7 @@ It’s not your fault.
 # redo_counter += 1
 # redo_counter += 1
 
+
 # REASON summary:
 # ─────────────────────────────────────────────────
 # REASON[0] = "the flowers" # COST: ongoing
@@ -284,9 +324,11 @@ It’s not your fault.
 # apologies delivered: 0
 # ...until now
 
+
 def run(reason, courage=True):
     if not courage:
         sys.exit("not yet")
+
 
     for moment in reason:
         navigate_to(moment.target)
@@ -294,13 +336,18 @@ def run(reason, courage=True):
         accept(moment.consequence)
         wait()
 
+
     return "whatever happens next"
+
 
 # I don't know if this works
 # I built it as carefully as I could
 # with the tools I currently have
 # which are better than the ones I had at 15
 # worse than the ones I'll have at 50
+```
+
+
 
 I'm running it anyway.
 
@@ -313,11 +360,15 @@ I can still call someone and say I have been thinking about that thing I did and
 
 If one thing changed, everything would have changed..
 
+```text
 if __name__ == "__main__":
+
     run(
+
         reason = REASON,
         courage = True # finally
     )
+
 
 # OUTPUT : unknown
 # ERRORS : possible
@@ -325,6 +376,9 @@ if __name__ == "__main__":
 # REGRETS : fewer than before
 #
 # running.
+```
+
+
 
 I’ll find the flowers you loved and I'll water them.
 I'll bring the flowers to your grave.
@@ -344,4 +398,23 @@ It's not real.
 
 The apology is.
 
-```
+## Reason Summary
+
+| Index | Reason | Target moment | Estimated cost | Actual cost |
+| --- | --- | --- | --- | --- |
+| `REASON[0]` | “the flowers” | friday, 4pm / before the TV is on | ~90 seconds | ongoing |
+| `REASON[1]` | “David” | thursday, october / the second before I open my mouth | 1 second of silence | his |
+| `REASON[2]` | “us” | no clean coordinate / damage was distributed | say the true thing | split evenly |
+| `REASON[3]` | “me” | ages: 15, 16, 17, 18, 22, 24 | draw him a map | compounding |
+
+| Runtime statistic | Value |
+| --- | --- |
+| `REDO_COUNTER` | `[redacted]` |
+| `APOLOGIES DRAFTED` | `4` |
+| `APOLOGIES DELIVERED` | `0 ...until now` |
+| `OUTPUT` | `unknown` |
+| `ERRORS` | `possible` |
+| `RUNTIME` | `the rest of it` |
+| `REGRETS` | `fewer than before` |
+| `COURAGE` | `finally` |
+

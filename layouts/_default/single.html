@@ -5,7 +5,9 @@
       <header class="article__header">
         <p class="eyebrow">{{ if eq .Type "projects" }}Database{{ else }}{{ .Type | humanize }}{{ end }}</p>
         <h1>{{ .Title }}</h1>
-        {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+        {{ if ne .Type "projects" }}
+          {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+        {{ end }}
         <div class="article__meta">
           {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>{{ end }}
           {{ if gt .ReadingTime 0 }}<span>{{ .ReadingTime }} min read</span>{{ end }}
