@@ -7,13 +7,11 @@ Not everything I write lives directly on this site. Some work may be published e
 
 ## Books / Published Work
 
-### Title TK
+### Specimens
 
-Available on Amazon
+My debut poetry collection.
 
-Amazon link TK
-
-Description TK
+[Available on Amazon](https://www.amazon.com/s?k=specimens+milo+dixon&crid=2Z9UWSKXST4QJ&sprefix=%2Caps%2C516&ref=nb_sb_ss_recent_4_0_recent)
 
 ## Stories on This Site
 
