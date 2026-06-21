@@ -1,9 +1,11 @@
-# **If It Wasn't Attached To My Shoulders**
-
-**by Milo Dixon**
-
-<br>
-<br>
+---
+title: "If It Wasn't Attached To My Shoulders"
+date: 2026-06-19T12:00:00-05:00
+draft: false
+description: "A short dialogue about identity, replacement parts, and being briefly luggage."
+tags: ["fiction", "science fiction", "short story", "dialogue"]
+aliases: ["/if-it-wasnt-attached-to-my-shoulders/"]
+---
 
 
 “Have you ever replaced your head? Easiest procedure I've had done in a while, you know.”

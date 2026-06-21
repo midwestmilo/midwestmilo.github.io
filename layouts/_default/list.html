@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <section class="page-hero">
+    <p class="eyebrow">{{ .Site.Title }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+  </section>
+
+  <section class="section">
+    {{ $pages := where .Pages "Draft" "!=" true }}
+    {{ if $pages }}
+      <div class="work-grid work-grid--archive">
+        {{ range sort $pages "Date" "desc" }}
+          {{ partial "work-card.html" . }}
+        {{ end }}
+      </div>
+    {{ else }}
+      <p class="empty-state">Nothing is published here yet.</p>
+    {{ end }}
+  </section>
+{{ end }}

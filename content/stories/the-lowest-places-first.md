@@ -4,6 +4,7 @@ date: 2026-06-20T12:00:00-05:00
 draft: false
 description: "A storm is coming, and the map already knows where the water should go."
 tags: ["fiction", "science fiction", "short story", "climate fiction", "speculative fiction"]
+author: "Milo Dixon"
 ---
 
 Flooding was a word from another time, and nobody used it anymore because it sounded like a bad omen. It evoked images of rushing water and submerged cars, or worse, like people standing on their roofs with their kids and dogs, waiting for help that would never come.

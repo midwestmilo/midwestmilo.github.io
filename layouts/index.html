@@ -1,0 +1,74 @@
+{{ define "main" }}
+  {{ $work := where .Site.RegularPages "Type" "in" (slice "stories" "poems") }}
+  {{ $latest := first 3 (sort $work "Date" "desc") }}
+  <section class="masthead">
+    <div class="masthead__content">
+      <p class="eyebrow">{{ .Site.Params.author }}</p>
+      <h1>{{ .Site.Params.homeHeadline }}</h1>
+      <p class="lede">{{ .Site.Params.homeIntro }} This is Milo Dixon's author hub for published work, stories, poems, projects, notes, and pieces still becoming what they are.</p>
+      <div class="masthead__actions" aria-label="Primary sections">
+        <a class="button button--primary" href="{{ "works/" | relURL }}">View works</a>
+        <a class="button button--secondary" href="{{ "poems/" | relURL }}">View poems</a>
+      </div>
+    </div>
+    <figure class="masthead__art">
+      <img src="{{ "images/beetle-on-a-board.jpg" | relURL }}" alt="Beetle on a Board visual poem artwork" loading="eager">
+    </figure>
+  </section>
+
+  <section class="section section--latest" aria-labelledby="latest-work">
+    <div class="section__header">
+      <p class="eyebrow">Latest</p>
+      <h2 id="latest-work">Recent work</h2>
+    </div>
+    <div class="work-grid">
+      {{ range $latest }}
+        {{ partial "work-card.html" . }}
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="section section--notes" aria-labelledby="site-notes">
+    <div class="note-band">
+      <h2 id="site-notes">Small systems. Bad weather. Soft bodies.</h2>
+      <p>A home for published work and fiction about climate anxiety, odd bureaucracy, body questions, tenderness under pressure, systems, and machinery that keeps asking for a signature.</p>
+    </div>
+  </section>
+
+  <section class="section section--paths" aria-labelledby="site-paths">
+    <div class="section__header">
+      <p class="eyebrow">Browse</p>
+      <h2 id="site-paths">Rooms in the archive</h2>
+    </div>
+    <div class="path-grid">
+      <a class="path-link" href="{{ "works/" | relURL }}">
+        <span>Works</span>
+        <small>Published work, external links, and works in progress.</small>
+      </a>
+      <a class="path-link" href="{{ "stories/" | relURL }}">
+        <span>Stories</span>
+        <small>Finished fiction and speculative systems.</small>
+      </a>
+      <a class="path-link" href="{{ "poems/" | relURL }}">
+        <span>Poems</span>
+        <small>Poems, visual pieces, and compressed weather.</small>
+      </a>
+      <a class="path-link" href="{{ "projects/" | relURL }}">
+        <span>Projects</span>
+        <small>Longer-running experiments and built things.</small>
+      </a>
+      <a class="path-link" href="{{ "notes/" | relURL }}">
+        <span>Notes</span>
+        <small>Fragments, observations, and pressure drafts.</small>
+      </a>
+      <a class="path-link" href="{{ "now/" | relURL }}">
+        <span>Now</span>
+        <small>Current focus for the site and the work.</small>
+      </a>
+      <a class="path-link" href="{{ "about/" | relURL }}">
+        <span>About</span>
+        <small>Context for C-Minus and Milo Dixon.</small>
+      </a>
+    </div>
+  </section>
+{{ end }}

@@ -1,0 +1,30 @@
+{{ define "main" }}
+  <article class="article">
+    <header class="article__header">
+      <p class="eyebrow">{{ .Type | humanize }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+      <div class="article__meta">
+        {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>{{ end }}
+        {{ if gt .ReadingTime 0 }}<span>{{ .ReadingTime }} min read</span>{{ end }}
+      </div>
+      {{ with .Params.tags }}
+        <div class="tag-list" aria-label="Tags">
+          {{ range . }}
+            <a href="{{ (printf "tags/%s/" (. | urlize)) | relURL }}">#{{ . }}</a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </header>
+
+    {{ with .Params.featured_image }}
+      <figure class="article__image">
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+      </figure>
+    {{ end }}
+
+    <div class="article__body">
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}
