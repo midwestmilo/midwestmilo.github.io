@@ -852,3 +852,24 @@ h2 {
 .article__body p + p {
   margin-top: 1.25rem;
 }
+.reason-summary-block {
+  margin: 3rem 0 0;
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  background: rgba(130, 65, 35, 0.08);
+  width: min(100vw - 2rem, 980px);
+  max-width: calc(100vw - 2rem);
+}
+
+.reason-summary-block h2 {
+  margin-top: 0;
+}
+
+.reason-summary-block table {
+  width: 100%;
+  min-width: 760px;
+}
+
+.reason-summary-block {
+  overflow-x: auto;
+}

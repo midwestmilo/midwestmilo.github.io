@@ -394,6 +394,8 @@ It's not real.
 
 The apology is.  
 
+{{< reason-summary >}}
+
 ## Reason Summary
 
 | Index | Reason | Target moment | Estimated cost | Actual cost |
@@ -414,3 +416,4 @@ The apology is.
 | `REGRETS` | `fewer than before` |
 | `COURAGE` | `finally` |
 
+{{< /reason-summary >}}
