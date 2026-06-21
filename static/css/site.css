@@ -1,18 +1,18 @@
 :root {
-  --paper: #f7f0df;
-  --paper-deep: #eadfca;
-  --paper-pale: #fffaf0;
-  --ink: #171513;
-  --charcoal: #181715;
-  --charcoal-2: #22201d;
-  --muted: #6f6659;
-  --line: #cfc0a8;
-  --line-dark: #4a453c;
-  --rust: #a74725;
-  --gold: #c9922f;
-  --white: #fffdf6;
+  --paper: #e5ded3;
+  --paper-deep: #d1c7ba;
+  --paper-pale: #f3eee6;
+  --ink: #121619;
+  --charcoal: #121619;
+  --charcoal-2: #20282d;
+  --muted: #575652;
+  --line: #aca69e;
+  --line-dark: #3d403f;
+  --rust: #9a4c30;
+  --gold: #c49345;
+  --white: #f3eee6;
   --sidebar: 292px;
-  --shadow: 0 22px 54px rgba(23, 21, 19, 0.13);
+  --shadow: 0 22px 54px rgba(18, 22, 25, 0.16);
   color-scheme: light;
   font-family: Georgia, "Times New Roman", serif;
 }
