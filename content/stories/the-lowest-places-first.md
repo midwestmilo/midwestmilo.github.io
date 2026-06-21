@@ -2,7 +2,7 @@
 title: "The Lowest Places First"
 date: 2026-06-20T12:00:00-05:00
 draft: false
-description: "In a flood-managed city, one reviewer redirects the water away from her mother and toward strangers-and then has to live inside the count."
+description: "A storm is coming, and the map already knows where the water should go."
 tags: ["fiction", "science fiction", "short story", "climate fiction", "speculative fiction"]
 ---
 
