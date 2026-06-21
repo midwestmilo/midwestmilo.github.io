@@ -59,15 +59,16 @@ jobs:
           path: |
             ${{ runner.temp }}/hugo_cache
           key: hugo-${{ github.run_id }}
-          restore-keys:
+          restore-keys: |
             hugo-
       - name: Build with Hugo
         run: |
+          rm -rf public resources/_gen
           hugo \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --cacheDir "${{ runner.temp }}/hugo_cache"
+            --cacheDir "${{ runner.temp }}/hugo_cache"      
       - name: Cache Save
         id: cache-save
         uses: actions/cache/save@v4
