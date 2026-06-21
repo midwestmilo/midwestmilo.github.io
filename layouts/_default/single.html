@@ -1,13 +1,20 @@
 {{ define "main" }}
   {{ $introImage := .Params.image }}
   <article class="article">
-    <div class="article__intro{{ with $introImage }} article__intro--with-image{{ end }}">
+    <div class="article__intro">
       <header class="article__header">
         <p class="eyebrow">{{ if eq .Type "projects" }}Database{{ else }}{{ .Type | humanize }}{{ end }}</p>
         <h1>{{ .Title }}</h1>
         {{ if ne .Type "projects" }}
           {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
         {{ end }}
+
+        {{ with $introImage }}
+          <figure class="article__image article__image--feature">
+            <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt | default $.Title }}">
+          </figure>
+        {{ end }}
+
         <div class="article__meta">
           {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>{{ end }}
           {{ if gt .ReadingTime 0 }}<span>{{ .ReadingTime }} min read</span>{{ end }}
@@ -20,12 +27,6 @@
           </div>
         {{ end }}
       </header>
-
-      {{ with $introImage }}
-        <figure class="article__portrait">
-          <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt | default $.Title }}">
-        </figure>
-      {{ end }}
     </div>
 
     {{ with .Params.featured_image }}
