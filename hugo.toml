@@ -34,14 +34,6 @@ summaryLength = 28
     pageRef = '/projects'
     weight = 30
   [[menu.main]]
-    name = 'Notes'
-    pageRef = '/notes'
-    weight = 40
-  [[menu.main]]
-    name = 'Now'
-    pageRef = '/now'
-    weight = 50
-  [[menu.main]]
     name = 'About'
     pageRef = '/about'
     weight = 60
