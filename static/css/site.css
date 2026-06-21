@@ -179,7 +179,7 @@ a:hover {
   margin: 0;
 }
 
-.site-sidebar__footer p:nth-child(2) {
+.site-sidebar__footer p:first-child {
   color: var(--paper);
   font-size: 1.1rem;
 }
@@ -735,12 +735,12 @@ h2 {
   .mobile-header .site-nav a:last-child {
     border: 0;
     padding: 0;
-    color: var(--muted);
+    color: rgba(243, 238, 230, 0.74);
   }
 
   .mobile-header .site-nav a[aria-current="page"] {
     border-left: 0;
-    color: var(--rust);
+    color: var(--gold);
     padding-left: 0;
   }
 

@@ -1,6 +1,5 @@
 ---
 title: "About"
-description: "About Milo Dixon and C-Minus."
 image: "/images/milo-headshot.jpg"
 image_alt: "Milo Dixon"
 ---

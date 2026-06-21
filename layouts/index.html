@@ -4,12 +4,12 @@
     <div class="home-hero__copy">
       <p class="eyebrow">Welcome</p>
       <h1>{{ .Site.Params.homeHeadline }}</h1>
-      <p class="lede">C-Minus is the author site of Milo Dixon: a home for speculative fiction, poems, projects, and pieces that are still becoming what they are.</p>
+      <p class="lede">C-Minus is the author site of Milo Dixon: a home for speculative fiction, poetry, published works, and the strange machinery of becoming a person.</p>
       <a class="button" href="#explore">Browse the site</a>
     </div>
 
     <div class="home-hero__visual">
-      <p class="home-hero__caption">Field Station, Somewhere Midwest</p>
+      <p class="home-hero__caption">The machine that captures it all</p>
       <figure class="home-hero__image">
         <img src="{{ $homeImage | relURL }}" alt="{{ .Params.image_alt | default .Site.Params.author }}" loading="eager">
       </figure>
@@ -20,7 +20,7 @@
     <div class="explore__inner">
       <div class="section__header">
         <p class="eyebrow">Explore</p>
-        <h2 id="explore-heading">Field Drawers</h2>
+        <h2 id="explore-heading">The Cabinet</h2>
       </div>
       <div class="path-grid">
         <a class="path-link" href="{{ "works/" | relURL }}">

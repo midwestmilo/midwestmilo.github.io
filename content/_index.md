@@ -1,6 +1,6 @@
 ---
 title: "C-Minus"
-description: "Speculative fiction, strange little systems, and poems by Milo Dixon."
+description: "Poetry, fiction, specimens, and the systems that capture it all."
 image: "/images/milo-home.jpg"
 image_alt: "Milo Dixon"
 ---
