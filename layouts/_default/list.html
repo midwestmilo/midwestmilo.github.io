@@ -6,6 +6,9 @@
   </section>
 
   <section class="section">
+  {{ with .Content }}
+    <div class="article__body section-content">{{ . }}</div>
+  {{ end }}
     {{ $pages := where .Pages "Draft" "!=" true }}
     {{ if $pages }}
       <div class="work-grid work-grid--archive">
@@ -14,7 +17,9 @@
         {{ end }}
       </div>
     {{ else }}
-      <p class="empty-state">Nothing is published here yet.</p>
+      {{ if not .Content }}
+        <p class="empty-state">Nothing is published here yet.</p>
+      {{ end }}
     {{ end }}
   </section>
 {{ end }}
