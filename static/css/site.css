@@ -429,7 +429,7 @@ h2 {
 .page-hero,
 .section,
 .article {
-  width: min(100% - 48px, 860px);
+  width: min(100% - 48px, 760px);
   margin: 0 auto;
 }
 
@@ -781,7 +781,7 @@ h2 {
   .page-hero,
   .section,
   .article {
-    width: min(100% - 32px, 860px);
+    width: min(100% - 32px, 760px);
   }
 
   .work-grid--archive {
