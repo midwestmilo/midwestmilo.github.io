@@ -30,7 +30,7 @@ summaryLength = 28
     pageRef = '/poems'
     weight = 20
   [[menu.main]]
-    name = 'Projects'
+    name = 'Database'
     pageRef = '/projects'
     weight = 30
   [[menu.main]]

@@ -1,6 +1,6 @@
 ---
-title: "Projects"
-description: "Longer-running experiments, serial ideas, and built things."
+title: "Database"
+description: "Poems, fragments, experiments, and indexed structures."
 ---
 
-Projects will collect longer-running work: serial ideas, built experiments, research trails, and anything that wants more structure than a single note or story.
+Database will collect poems from STDERR, fragments, indexed structures, experiments, and anything that wants more structure than a single page.
