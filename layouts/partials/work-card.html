@@ -1,7 +1,7 @@
 <article class="work-card">
   <a href="{{ .RelPermalink }}" class="work-card__link">
-    {{ with .Params.featured_image }}
-      <img class="work-card__image" src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
+    {{ with or .Params.featured_image .Params.image }}
+      <img class="work-card__image" src="{{ . | relURL }}" alt="{{ $.Params.image_alt | default $.Title }}" loading="lazy">
     {{ else }}
       <span class="work-card__monogram" aria-hidden="true">{{ substr .Title 0 1 }}</span>
     {{ end }}
