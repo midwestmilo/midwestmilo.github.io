@@ -41,36 +41,36 @@ REASON.append("the flowers")
 
 
 
-You went to see Aunt Maxine that weekend.
+You went to see Aunt Maxine that weekend.  
 
-Water these, just once, they are my favorite
+Water these, just once, they are my favorite  
 
-Do you promise?
+Do you promise?  
 
-Yes, I'll water them
-Yes, I’m listening
-I can water them enough to hold them over,
-I'll be back Sunday.
+Yes, I'll water them  
+Yes, I’m listening  
+I can water them enough to hold them over,  
+I'll be back Sunday.  
 
-I said okay, but what I really meant was okay.
+I said okay, but what I really meant was okay.  
 
-I sat in front of the television
-the afternoon went somewhere like you did
-and I told myself after this level,
-after this save point,
-after this,
-after this,
-after
-after
+I sat in front of the television  
+the afternoon went somewhere like you did  
+and I told myself after this level,  
+after this save point,  
+after this,  
+after this,  
+after  
+after  
 
-Saturday went to sleep on Sunday morning
-I was too late
+Saturday went to sleep on Sunday morning  
+I was too late  
 
-you knew it too
-you go to look anyway.
+you knew it too  
+you go to look anyway.  
 
-They were the color of a what a colorful thing looks like
-when it used to be a color.
+They were the color of a what a colorful thing looks like  
+when it used to be a color.  
 
 ```text
 # you came home, you saw them
@@ -105,23 +105,23 @@ REASON.append("David")
 
 
 
-He told me in the hallway in October.
-The school didn't know yet
-We knew each other.
+He told me in the hallway in October.  
+The school didn't know yet  
+We knew each other.  
 
-He leaned in real close
+He leaned in real close  
 
-I think I like you.
+I think I like you.  
 
-It takes everything to lean in like that.
+It takes everything to lean in like that.  
 
-I think I like you, like you.
+I think I like you, like you.  
 
-He said it in the hallway to me.
+He said it in the hallway to me.  
 
-Faggot.
+Faggot.  
 
-Fuck. I said that out loud.
+Fuck. I said that out loud.  
 
 ```text
 # I didn't know anyone was listening
@@ -162,13 +162,13 @@ Fuck. I said that out loud.
 
 
 
-He didn't come back to that hallway.
-I didn't either
+He didn't come back to that hallway.  
+I didn't either  
 
-We just got quieter in each other's direction
-until we were two people
-who had once been in the same sentence
-but I guess we weren't anymore.
+We just got quieter in each other's direction  
+until we were two people  
+who had once been in the same sentence  
+but I guess we weren't anymore.  
 
 ```text
 pending_apology["David"] = {
@@ -193,15 +193,15 @@ REASON.append("us")
 
 
 
-There is no clean TARGET_MOMENT for this one.
+There is no clean TARGET_MOMENT for this one.  
 
-I can't determine a single coordinate to enter…
+I can't determine a single coordinate to enter…  
 
-The damage was distributed evenly
-It spread across many innocuous evenings
-and the quiet can mean two things at the same time
+The damage was distributed evenly  
+It spread across many innocuous evenings  
+and the quiet can mean two things at the same time  
 
-How were we already with together when we kept choosing anything except each other
+How were we already with together when we kept choosing anything except each other  
 
 ```text
 him = "trying"
@@ -220,11 +220,11 @@ us = him + me
 
 
 
-We were both carrying it, that felt tangible
-We passed it back and forth
-thinking the other one knew how to hold it.
+We were both carrying it, that felt tangible  
+We passed it back and forth  
+thinking the other one knew how to hold it.  
 
-I mistook handsfree love for carefree love
+I mistook handsfree love for carefree love  
 
 ```text
 # I would go back to the first night
@@ -267,24 +267,24 @@ the_version_that_didnt_know_yet = {
 
 
 
-I would go back to every age in that list, but it’s not like it would be anything dramatic
-It’d be more like a map
+I would go back to every age in that list, but it’s not like it would be anything dramatic  
+It’d be more like a map  
 
-I'd go back to 15 and sit on the floor of his bedroom
-when the game is loading,
-he likes Fallout 3 and Final Fantasy,
-and I would not say it gets better because that sounds like bullshit
-he has already heard that and it hasn't yet
+I'd go back to 15 and sit on the floor of his bedroom  
+when the game is loading,  
+he likes Fallout 3 and Final Fantasy,  
+and I would not say it gets better because that sounds like bullshit  
+he has already heard that and it hasn't yet  
 
-So he doesn't believe it, he doesn't believe me.
+So he doesn't believe it, he doesn't believe me.  
 
-I would say:
+I would say:  
 
-you are not the problem.
-You’re a person with a problem (problems have solutions).
-you don’t have to fix this with what you have right now
-because what you have right now is not enough
-It’s not your fault.
+you are not the problem.  
+You’re a person with a problem (problems have solutions).  
+you don’t have to fix this with what you have right now  
+because what you have right now is not enough  
+It’s not your fault.  
 
 ```text
 # I would go back to 19
@@ -349,16 +349,16 @@ def run(reason, courage=True):
 
 
 
-I'm running it anyway.
+I'm running it anyway.  
 
-I think if some of the timestamps are wrong,
-or coordinates resolve to nothing,
-and the whole thing compiles clean
-It might absolutely do nothing,
+I think if some of the timestamps are wrong,  
+or coordinates resolve to nothing,  
+and the whole thing compiles clean  
+It might absolutely do nothing,  
 
-I can still call someone and say I have been thinking about that thing I did and I am sorry.
+I can still call someone and say I have been thinking about that thing I did and I am sorry.  
 
-If one thing changed, everything would have changed..
+If one thing changed, everything would have changed..  
 
 ```text
 if __name__ == "__main__":
@@ -380,23 +380,23 @@ if __name__ == "__main__":
 
 
 
-I’ll find the flowers you loved and I'll water them.
-I'll bring the flowers to your grave.
-I'll sit down next to the me
-that didn't know who he was yet
+I’ll find the flowers you loved and I'll water them.  
+I'll bring the flowers to your grave.  
+I'll sit down next to the me  
+that didn't know who he was yet  
 
-I'll stay for a while and think about you.
-I'll wonder if you're proud of me.
-And I'll try to make you proud of me
-even if I never get an answer.
+I'll stay for a while and think about you.  
+I'll wonder if you're proud of me.  
+And I'll try to make you proud of me  
+even if I never get an answer.  
 
-If I could have changed one thing, it would have changed everything.
+If I could have changed one thing, it would have changed everything.  
 
-I don't think the machine is going to work.
-It could never work.
-It's not real.
+I don't think the machine is going to work.  
+It could never work.  
+It's not real.  
 
-The apology is.
+The apology is.  
 
 ## Reason Summary
 
