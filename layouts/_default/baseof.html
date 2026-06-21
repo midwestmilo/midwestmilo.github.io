@@ -24,7 +24,7 @@
     <div class="site-sidebar__top">
       <a class="brand" href="{{ "/" | relURL }}" aria-label="{{ .Site.Title }} home">
         <span class="brand__name">C-MINUS</span>
-        <span class="brand__tagline">Writing. Systems. Weather.</span>
+        <span class="brand__tagline">Poems. Fiction. Specimens.</span>
       </a>
       <nav class="site-nav" aria-label="Primary">
         <a href="{{ "/" | relURL }}"{{ if .IsHome }} aria-current="page"{{ end }}>Home</a>
@@ -34,8 +34,7 @@
       </nav>
     </div>
     <div class="site-sidebar__footer">
-      <p>{{ .Site.Params.description }}</p>
-      <p>Strange weather.<br>Stranger colors.<br></p>
+      <p>Strange weather.<br>Stranger colors.</p>
       <p>&copy; {{ now.Format "2006" }} {{ .Site.Params.copyright | default .Site.Params.author }}</p>
     </div>
   </aside>
