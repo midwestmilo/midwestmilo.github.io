@@ -845,3 +845,10 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+.article__body p {
+  line-height: 1.85;
+}
+
+.article__body p + p {
+  margin-top: 1.25rem;
+}

@@ -10,8 +10,6 @@ tags:
 
 
 ```text
-redo.py
-by Milo Dixon
 
 
 import time
@@ -21,10 +19,8 @@ import sys
 
 from memory import suppress, restore, rewrite
 from grief import unresolved, pending, buried
-from self import the_version_I_cannot_accept
 
 
-# this is a time machine
 
 
 TARGET_YEAR = None # to be determined
