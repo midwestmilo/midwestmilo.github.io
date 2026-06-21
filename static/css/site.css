@@ -707,14 +707,17 @@ h2 {
     top: 0;
     z-index: 20;
     display: block;
-    border-bottom: 1px solid var(--line);
-    background: rgba(247, 240, 223, 0.94);
+    border-bottom: 1px solid var(--line-dark);
+    background:
+      linear-gradient(180deg, rgba(196, 147, 69, 0.08), transparent 80%),
+      var(--charcoal);
+    color: var(--paper);
     padding: 1rem;
     backdrop-filter: blur(12px);
   }
 
   .mobile-header .brand {
-    color: var(--ink);
+    color: var(--paper);
   }
 
   .mobile-header .brand__name {
