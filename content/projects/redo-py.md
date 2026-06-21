@@ -1,6 +1,8 @@
 ---
 title: "redo.py"
 date: 2026-01-01T13:00:00-05:00
+image: "/images/redo-clocks.jpg"
+image_alt: "A field of clocks on tall poles against a cloudy sky"
 tags:
   - stderr
   - code poem
