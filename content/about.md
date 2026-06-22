@@ -6,10 +6,12 @@ image_alt: "Milo Dixon"
 
 I’m Milo Dixon, a Chicago-based writer and poet.
 
-C-Minus is my home for fiction, poems, notes, projects, and small systems that are still becoming what they are.
+I write because people are often softer, funnier, and more complicated than the systems they live inside allow them to be. C-Minus is where I keep that attention: fiction, poems, experiments, code-shaped pieces, field notes, and small machines built out of feeling.
 
-I write about grief, faith, queerness, class, climate anxiety, friendship, machines, memory, odd bureaucracy, and the strange ways people try to stay human inside systems that keep asking for proof.
+My work is personal, but it is not separate from the professional and technical worlds I have lived in. I have worked in HR, learning and development, training, sales support, executive administration, and technology-adjacent spaces where people are constantly being translated into policies, workflows, tickets, metrics, reports, performance gaps, and “best practices.” I have seen how much of corporate life depends on misunderstanding: what someone meant, what someone heard, what the policy says, what the system allows, and what a person actually needed.
 
-Some pieces here are polished. Some are experiments. Some are stories pretending to be diagrams, poems pretending to be field notes, or jokes that accidentally found a wound. The common thread is attention: to language, to pressure, to the body, to the weather, to the machinery around us, and to the small tendernesses that survive anyway.
+That is part of why my writing returns to systems. A database is never just a database. A form is never just a form. A server is never just a server. These are places where human lives get compressed, sorted, routed, denied, recovered, or lost. I am interested in the person inside the process: the body under the metric, the joke inside the wound, the feeling that survives the machinery.
 
-My debut poetry collection, *Specimens*, was published by C-Minus in 2026. Much of my work lives somewhere between confession and apparatus: emotionally direct, structurally curious, and interested in what breaks, what persists, and what still refuses to be pinned down.
+I studied Communications at Bradley University, and my professional life has also made me fluent in the language of training rooms, HR documents, software platforms, troubleshooting, and institutional logic. My technical interests come from the same place as my writing: I want to understand how things are built, why they fail, and what they reveal when they do.
+
+My debut poetry collection, *Specimens*, was published by C-Minus in 2026. Across poems, stories, and projects like *STDERR*, I’m trying to make work that feels emotionally honest, structurally alive, and attentive to the strange labor of becoming a person.
