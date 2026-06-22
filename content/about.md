@@ -6,7 +6,7 @@ image_alt: "Milo Dixon"
 
 I’m Milo Dixon, a Chicago-based writer and poet.
 
-I write because people are often softer, funnier, and more complicated than the are often allowed to be. C-Minus is where I keep that attention: fiction, poems, experiments, code-shaped pieces, field notes, and small machines built out of feeling. The name C-Minus comes from the grade I usually got in Conduct on my elementary school report card. 
+I write because people are often softer, funnier, and more complicated than they are allowed to be. C-Minus is where I keep that attention: fiction, poems, experiments, code-shaped pieces, field notes, and small machines built out of feeling. The name C-Minus comes from the grade I usually got in Conduct on my elementary school report card. 
 
 My work is personal, but it is not separate from the professional and technical worlds I have lived in. I have worked in HR, learning and development, training, sales support, executive administration, and technology-adjacent spaces where people are constantly being translated into policies, workflows, tickets, metrics, reports, performance gaps, and “best practices.” I have seen how much of corporate life depends on misunderstanding: what someone meant, what someone heard, what the policy says, what the system allows, and what a person actually needed.
 
