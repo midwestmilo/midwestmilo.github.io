@@ -873,3 +873,21 @@ h2 {
 .reason-summary-block {
   overflow-x: auto;
 }
+.book-cover {
+  margin: 1.5rem 0 1.25rem;
+  max-width: 260px;
+}
+
+.book-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 40px rgba(38, 28, 20, 0.18);
+}
+
+@media (max-width: 700px) {
+  .book-cover {
+    max-width: 220px;
+  }
+}
