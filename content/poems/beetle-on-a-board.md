@@ -1,6 +1,5 @@
 ---
 title: "Beetle on a Board"
-description: "A poem from Specimens."
 date: 2026-01-01T12:00:00-05:00
 image: "/images/beetle-new.jpg"
 image_alt: "A close-up beetle specimen against a dark background"

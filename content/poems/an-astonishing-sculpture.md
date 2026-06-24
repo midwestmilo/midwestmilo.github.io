@@ -2,7 +2,6 @@
 title: "An Astonishing Sculpture"
 date: 2026-01-19T12:00:00-05:00
 draft: false
-description: "A poem about making a self from memory, fear, imagination, and the impossible work of becoming."
 tags: ["poem", "specimens", "identity", "selfhood"]
 author: "Milo Dixon"
 image: "/images/an-astonishing-sculpture.jpg"
