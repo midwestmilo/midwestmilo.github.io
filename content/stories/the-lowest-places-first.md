@@ -5,6 +5,9 @@ draft: false
 description: "A storm is coming, and the map already knows where the water should go."
 image: "/images/lowest-places-first.jpg"
 image_alt: "A flooded coastal street lined with trees and streetlights"
+image_credit_name: "Connor Scott McManus"
+image_credit_url: "https://www.pexels.com/photo/puddle-of-water-on-the-road-14216445/"
+image_credit_source: "Pexels"
 tags: ["fiction", "science fiction", "short story", "climate fiction", "speculative fiction"]
 author: "Milo Dixon"
 ---

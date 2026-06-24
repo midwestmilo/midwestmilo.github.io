@@ -3,6 +3,9 @@ title: "redo.py"
 date: 2026-01-01T13:00:00-05:00
 image: "/images/redo-clocks.jpg"
 image_alt: "A field of clocks on tall poles against a cloudy sky"
+image_credit_name: "Pixabay"
+image_credit_url: "https://www.pexels.com/photo/gray-scale-photography-of-clock-near-trees-277458/"
+image_credit_source: "Pexels"
 tags:
   - stderr
   - code poem

@@ -4,6 +4,9 @@ description: "A poem from Specimens."
 date: 2026-01-01T12:00:00-05:00
 image: "/images/beetle-new.jpg"
 image_alt: "A close-up beetle specimen against a dark background"
+image_credit_name: "Kyle Killam"
+image_credit_url: "https://www.pexels.com/photo/insect-collection-3924726/"
+image_credit_source: "Pexels"
 tags:
   - poem
   - specimens
