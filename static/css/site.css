@@ -854,11 +854,12 @@ h2 {
 }
 .reason-summary-block {
   margin: 3rem 0 0;
+  max-width: 100%;
+  overflow-x: auto;
   padding: 1.25rem;
   border: 1px solid var(--line);
   background: rgba(130, 65, 35, 0.08);
-  width: min(100vw - 2rem, 980px);
-  max-width: calc(100vw - 2rem);
+  -webkit-overflow-scrolling: touch;
 }
 
 .reason-summary-block h2 {
@@ -866,12 +867,8 @@ h2 {
 }
 
 .reason-summary-block table {
-  width: 100%;
+  display: table;
   min-width: 760px;
-}
-
-.reason-summary-block {
-  overflow-x: auto;
 }
 .book-cover {
   margin: 1.5rem 0 1.25rem;
@@ -891,3 +888,70 @@ h2 {
     max-width: 220px;
   }
 }
+
+/* Keep code poems and wide tables from breaking mobile layout. */
+.article__body .highlight {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.article__body pre {
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 1rem;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+}
+
+.article__body code {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.article__body table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Hard stop: prevent code blocks from making the whole mobile page swipe sideways. */
+html,
+body,
+.site-shell,
+main {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.article,
+.article__body,
+.article__body .highlight {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.article__body .highlight {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.article__body .highlight pre,
+.article__body pre {
+  width: max-content;
+  min-width: 100%;
+  max-width: none;
+  overflow-x: visible;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.article__body .highlight code,
+.article__body pre code {
+  white-space: pre;
+}
+
