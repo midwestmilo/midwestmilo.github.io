@@ -5,6 +5,11 @@ draft: false
 description: "A poem about making a self from memory, fear, imagination, and the impossible work of becoming."
 tags: ["poem", "specimens", "identity", "selfhood"]
 author: "Milo Dixon"
+image: "/images/an-astonishing-sculpture.jpg"
+image_alt: "A person using a hammer and chisel on stone"
+image_credit_name: "Tima Miroshnichenko"
+image_credit_url: "https://www.pexels.com/photo/a-person-using-a-hammer-and-a-chisel-6713842/"
+image_credit_source: "Pexels"
 ---
 
 Begin with marble, untouched.  
