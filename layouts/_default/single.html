@@ -12,12 +12,12 @@
         {{ with $introImage }}
           <figure class="article__image article__image--feature">
             <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt | default $.Title }}">
-            {{ with $.Params.image_credit_name }}
-              <figcaption class="image-credit">
-                Photo: {{ with $.Params.image_credit_url }}<a href="{{ . }}">{{ end }}{{ . }}{{ with $.Params.image_credit_url }}</a>{{ end }}{{ with $.Params.image_credit_source }} / {{ . }}{{ end }}
-              </figcaption>
-            {{ end }}
           </figure>
+          {{ with $.Params.image_credit_name }}
+            <p class="image-credit">
+              Photo: {{ with $.Params.image_credit_url }}<a href="{{ . }}">{{ end }}{{ . }}{{ with $.Params.image_credit_url }}</a>{{ end }}{{ with $.Params.image_credit_source }} / {{ . }}{{ end }}
+            </p>
+          {{ end }}
         {{ end }}
 
         <div class="article__meta">
