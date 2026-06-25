@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /projects/
 title: "Database"
 description: "Poems, fragments, experiments, and indexed structures."
 ---

@@ -6,9 +6,9 @@
       <span class="work-card__monogram" aria-hidden="true">{{ substr .Title 0 1 }}</span>
     {{ end }}
     <span class="work-card__body">
-      <span class="work-card__type">{{ if eq .Type "projects" }}Database{{ else }}{{ .Type | humanize }}{{ end }}</span>
+      <span class="work-card__type">{{ if eq .Type "database" }}Database{{ else }}{{ .Type | humanize }}{{ end }}</span>
       <span class="work-card__title">{{ .Title }}</span>
-      {{ if and (ne .Type "projects") (ne .Type "poems") }}
+      {{ if and (ne .Type "database") (ne .Type "poems") }}
         {{ with .Description }}<span class="work-card__description">{{ . }}</span>{{ end }}
       {{ end }}
       <span class="work-card__meta">
