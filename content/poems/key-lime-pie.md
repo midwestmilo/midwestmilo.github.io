@@ -5,9 +5,9 @@ draft: false
 tags: ["poem", "specimens", "memory"]
 author: "Milo Dixon"
 image: "/images/key-lime-pie.jpg"
-image_alt: "A slice of key lime pie on a white plate"
-image_credit_name: "Caramelle Gastronomia"
-image_credit_url: "https://www.pexels.com/photo/4529015/"
+image_alt: "A key lime pie with whipped cream on a wooden board"
+image_credit_name: "Laércio Correia Filho"
+image_credit_url: "https://www.pexels.com/photo/homemade-cake-on-table-11009891/"
 image_credit_source: "Pexels"
 ---
 
