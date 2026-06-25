@@ -4,6 +4,11 @@ date: 2026-02-02T12:00:00-05:00
 draft: false
 tags: ["poem", "specimens", "growth"]
 author: "Milo Dixon"
+image: "/images/pancake-corpses.jpg"
+image_alt: "A small stack of pancakes on a plate"
+image_credit_name: "Natalya Choohrova"
+image_credit_url: "https://www.pexels.com/photo/10456052/"
+image_credit_source: "Pexels"
 ---
 
 Someone told me  

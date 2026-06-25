@@ -4,6 +4,11 @@ date: 2026-03-16T12:00:00-05:00
 draft: false
 tags: ["poem", "specimens", "survival"]
 author: "Milo Dixon"
+image: "/images/finger-guns.jpg"
+image_alt: "A person adjusting a dark suit jacket in front of a mirror"
+image_credit_name: "Tima Miroshnichenko"
+image_credit_url: "https://www.pexels.com/photo/6765008/"
+image_credit_source: "Pexels"
 ---
 
 Of course I know you love me,  

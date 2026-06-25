@@ -4,6 +4,11 @@ date: 2026-03-30T12:00:00-05:00
 draft: false
 tags: ["poem", "specimens", "selfhood"]
 author: "Milo Dixon"
+image: "/images/two-sculptures-meet.jpg"
+image_alt: "Two marble statues seen through a soft, grainy museum view"
+image_credit_name: "Yarennur Babalık"
+image_credit_url: "https://www.pexels.com/photo/11096657/"
+image_credit_source: "Pexels"
 ---
 
 She was carved from thunderstorms.  

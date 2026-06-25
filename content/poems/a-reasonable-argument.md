@@ -4,6 +4,11 @@ date: 2026-03-02T12:00:00-05:00
 draft: false
 tags: ["poem", "specimens", "love"]
 author: "Milo Dixon"
+image: "/images/a-reasonable-argument.jpg"
+image_alt: "Water splashing out of a glass held in one hand"
+image_credit_name: "ROMAN ODINTSOV"
+image_credit_url: "https://www.pexels.com/photo/4871116/"
+image_credit_source: "Pexels"
 ---
 
 I have been so good at full.  

@@ -4,6 +4,11 @@ date: 2026-02-16T12:00:00-05:00
 draft: false
 tags: ["poem", "specimens", "memory"]
 author: "Milo Dixon"
+image: "/images/key-lime-pie.jpg"
+image_alt: "A slice of key lime pie on a white plate"
+image_credit_name: "Caramelle Gastronomia"
+image_credit_url: "https://www.pexels.com/photo/4529015/"
+image_credit_source: "Pexels"
 ---
 
 Your hands were the first thing I noticed about you.  
