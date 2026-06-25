@@ -33,13 +33,9 @@ At 4:17 p.m., the Hoatzin storm appeared on her screen.
 Storms were always named after birds. Terrence had explained that it was the protocol because birds made disasters sound like nature, and if they were just nature, then it can’t really be anyone’s fault.
 
 **Hoatzin EVENT**
-
 **Projected rainfall: 19.4 cm / 6 hr**
-
 **Drainage saturation: 84% and rising**
-
 **Primary capture insufficient**
-
 **Managed sacrifice allocation required**
 
 Melinda leaned in closer.
@@ -81,37 +77,25 @@ Melinda called her mother. Of course there was no answer. Her mother kept her ph
 Meanwhile, the map had changed from bright red to a darker red. The network was doing its networking, and had refined the path.
 
 **REVIEW REQUIRED**
-
 **Recommendation: Option A**
-
 **Primary sacrifice zone: Merced Downy.**
-
 **Projected displacement: 12,220**
-
 **Projected severe injury: 28**
-
 **Projected mortality: 2-7**
-
 **Protected assets: West Cardinal Medical Campus, Soleil Data Exchange, Red Line transportation tunnel, municipal reservoir intake**
 
 Melinda opened Option B.
 
 **Dunning South.**
-
 **Projected displacement: 9,670**
-
 **Projected severe injury: 25**
-
 **Projected mortality: 8-12**
-
 **Protected assets: Merced Downy, West Cardinal Medical Campus, Soleil Data Exchange**
-
 **Secondary risk: industrial runoff breach**
 
 Option C was the worst of them all.
 
 **Old Pavel’s Basin.**
-
 **Projected mortality: 8-16.**
 
 She closed it almost immediately.
@@ -147,13 +131,9 @@ Melinda opened the registry for Ash Street 8829.
 Occupancy: 43 residential units
 
 **Evacuation compliance: 62%**
-
 **Elder residents: 11**
-
 **Floodproofing status: partial**
-
 **Last structural inspection: 14 months overdue**
-
 **Visitor log: Catherine Brochu, 1:12 p.m.**
 
 Her mother’s name, clear as day in that stupid little box.
@@ -231,17 +211,11 @@ Walton saw it.
 The override menu asked for a justification.
 
 **[1] Infrastructure preservation.**
-
 **[2] Shelter protection.**
-
 **[3] Medical priority.**
-
 **[4] Model uncertainty.**
-
 **[5] Civil unrest risk.**
-
 **[6] Manual correction.**
-
 **[7] Other.**
 
 She chose Model uncertainty.
@@ -251,7 +225,6 @@ The screen issued the warning she had seen in training, during the drills when o
 The numbers remained in the corner.
 
 **Option A: 3-7 projected deaths.**
-
 **Override: 5-11 projected deaths.**
 
 The network didn’t hide it from her. That wouldn’t matter until later.
@@ -275,11 +248,8 @@ Melinda did not answer. She pressed Confirm.
 A quiet chime filled the office.
 
 **GATE SEQUENCE MODIFIED**
-
 **Primary sacrifice zone reassigned**
-
 **Merced Downy protected**
-
 **Dunning South receiving load**
 
 On the screen, water shifted.
@@ -327,11 +297,8 @@ Melinda watched from her desk with an emergency blanket around her shoulders tha
 Walton stood behind her. The dashboard read:
 
 **Dunning South**
-
 **Displacement: 11,204**
-
 **Severe injury: 19 confirmed**
-
 **Mortality: pending**
 
 Pending was where the bodies floated face down, waiting for the city to get organized.
@@ -443,11 +410,8 @@ Dunning South’s Eden Hill apartment complex had taken the redirected load thro
 She read the sealed casualty report alone because audit subjects were required to review full consequence documentation. This was part of a policy called harm comprehension. Another “humane” reform.
 
 **Anya Dobrik, 34,**
-
 **Luis Dobrik, 36,**
-
 **Matthew Dobrik, 5,**
-
 **Clair Dobrik, 2.**
 
 She stood too quickly, knocking over the chair.
@@ -573,13 +537,9 @@ He flinched as Melinda’s mouth twisted into a painful grimace and gave her the
 The override archive looked like everything else the city made. Whitish-grey background, dark blue headings, and an unusually clunky navigation interface. She scrolled past Manual Allocation Deviations and then again past Restricted Contextual Reference.
 
 **Storm Finch: reviewer protected spouse’s workplace. A-Zone: 4 deaths**
-
 **Storm Ibis: supervisor preserved council housing complex under legal pressure. A-Zone: 23 deaths**
-
 **Storm Heron: medical exemption cluster manually weighted. A-Zone: 9 deaths**
-
 **Storm Kestrel: reviewer protected undocumented shelter after activist petition. A-Zone: 14 deaths**
-
 **Storm Oriole: executive override preserved waterfront tax district. A-Zone: 41 deaths.**
 
 Melinda realized that not all of them were entirely selfish. Somehow that was worse.
