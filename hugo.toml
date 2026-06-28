@@ -47,3 +47,8 @@ summaryLength = 28
   url = "/contact/"
   weight = 70
 
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
