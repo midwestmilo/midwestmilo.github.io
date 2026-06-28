@@ -41,3 +41,9 @@ summaryLength = 28
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 70
+
