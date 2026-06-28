@@ -1032,3 +1032,30 @@ main {
   display: none;
 }
 
+
+/* About page portrait */
+.article__image--feature img[src="/images/milo-headshot.jpg"] {
+  width: min(100%, 560px);
+  max-height: 720px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.article__image--feature:has(img[src="/images/milo-headshot.jpg"]) {
+  max-width: 600px;
+  margin: 0 auto 2.25rem;
+}
+
+@media (min-width: 900px) {
+  .article__image--feature:has(img[src="/images/milo-headshot.jpg"]) {
+    max-width: 640px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .article__image--feature img[src="/images/milo-headshot.jpg"] {
+    width: 600px;
+  }
+}
