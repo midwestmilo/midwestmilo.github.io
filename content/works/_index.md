@@ -8,11 +8,17 @@ C-Minus collects my fiction, poems, and longer-running experiments. This page is
 
 ## Published
 
-### *Specimens* (2026)
+<div class="book-feature">
+  <figure class="book-feature__cover">
+    <img src="/images/specimens-cover.jpg" alt="Cover of Specimens by Milo Dixon">
+  </figure>
 
-My debut poetry collection.
-
-Purchase or reading links for *Specimens* will be added here.
+  <div class="book-feature__body">
+    <h3><em>Specimens</em> (2026)</h3>
+    <p>My debut poetry collection.</p>
+    <p><a class="button" href="https://www.amazon.com/Specimens-Milo-Dixon/dp/B0H3SZGWBR/">View on Amazon</a></p>
+  </div>
+</div>
 
 ## Selected Reading
 

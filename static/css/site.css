@@ -1125,3 +1125,35 @@ main {
   text-decoration: none;
 }
 
+/* Works page book feature */
+.book-feature {
+  align-items: start;
+  border: 1px solid var(--rule);
+  display: grid;
+  gap: 1.5rem;
+  margin: 1.25rem 0 2.5rem;
+  padding: 1.25rem;
+}
+
+.book-feature__cover {
+  margin: 0;
+  max-width: 220px;
+}
+
+.book-feature__cover img {
+  border: 1px solid var(--rule);
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.book-feature__body h3 {
+  margin-top: 0;
+}
+
+@media (min-width: 760px) {
+  .book-feature {
+    grid-template-columns: 180px 1fr;
+  }
+}
+
