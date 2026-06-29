@@ -1,14 +1,35 @@
 ---
 title: "Works"
-description: "Not everything I write lives directly on this site. Some work may be published elsewhere, sold through outside stores, or still moving toward completion."
+description: "Published work, selected writing, and projects in progress."
+draft: false
 ---
 
-## Books / Published Work
+C-Minus collects my fiction, poems, and longer-running experiments. This page is a simple index of published work, selected pieces, and projects still taking shape.
 
-### Specimens
+## Published
 
-Specimens is my debut poetry collection, releases on June 1, 2026 and currrently available on Amazon. Should you choose to purchase, please leave an honest review. There is an e-book version is coming soon! 
+### *Specimens* (2026)
 
-{{< book-cover src="/images/specimens-cover.jpg" alt="Cover of Specimens by Milo Dixon" >}}
+My debut poetry collection.
 
-[Available on Amazon](https://www.amazon.com/s?k=specimens+milo+dixon&crid=2Z9UWSKXST4QJ&sprefix=%2Caps%2C516&ref=nb_sb_ss_recent_4_0_recent)
+Purchase or reading links for *Specimens* will be added here.
+
+## Selected Reading
+
+If you are new here, a few good places to start:
+
+- [The Lowest Places First](/stories/the-lowest-places-first/)
+- [An Astonishing Sculpture](/poems/an-astonishing-sculpture/)
+- [The Tadpole and the Snake](/poems/the-tadpole-and-the-snake/)
+- [redo.py](/database/redo-py/)
+- [README.md](/database/readme-md/)
+
+## In Progress
+
+### *STDERR*
+
+A developing project of technical and code-shaped poems concerned with structure, feeling, error, memory, and the strange ways people are processed.
+
+## Contact
+
+For inquiries, collaboration, or a note from the outside world, use the [Contact](/contact/) page.

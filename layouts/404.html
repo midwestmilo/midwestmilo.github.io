@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="error-page">
+  <p class="eyebrow">Signal Lost</p>
+  <h1>404</h1>
+
+  <p class="error-page__lede">
+    This page may have moved, failed to compile, or drifted out of range.
+  </p>
+
+  <div class="error-page__signal" aria-hidden="true">
+    <span class="error-page__satellite">⌁</span>
+    <span class="error-page__dish">◜📡◞</span>
+    <span class="error-page__static">NO SIGNAL</span>
+  </div>
+
+  <p class="error-page__text">
+    Try one of these instead:
+  </p>
+
+  <div class="error-page__links">
+    <a href="{{ "/" | relURL }}">Home</a>
+    <a href="{{ "works/" | relURL }}">Works</a>
+    <a href="{{ "stories/" | relURL }}">Stories</a>
+    <a href="{{ "poems/" | relURL }}">Poems</a>
+    <a href="{{ "database/" | relURL }}">Database</a>
+    <a href="{{ "contact/" | relURL }}">Contact</a>
+  </div>
+</section>
+{{ end }}
