@@ -204,7 +204,7 @@ The damage was distributed evenly
 It spread across many innocuous evenings  
 and the quiet can mean two things at the same time  
 
-How were we already with together when we kept choosing anything except each other  
+How were we already together when we kept choosing anything except each other  
 
 ```text
 him = "trying"
